@@ -1,8 +1,6 @@
-# editor.py
-
-from PyQt5.QtWidgets import QTextEdit, QFontComboBox, QSpinBox, QToolBar, QColorDialog, QAction
-from PyQt5.QtCore import pyqtSignal, Qt
-from PyQt5.QtGui import QTextCharFormat, QColor, QPalette, QFont
+from PyQt5.QtWidgets import QTextEdit, QToolBar, QAction, QColorDialog, QFontComboBox, QSpinBox, QPushButton
+from PyQt5.QtGui import QTextCharFormat, QFont, QColor
+from PyQt5.QtCore import pyqtSignal
 
 
 class TextEditor(QTextEdit):
